@@ -98,7 +98,7 @@ public static function upload(UploadedFile $file, string $folder)
 {
     ...
     if (check failed) {
-        $this->banUser(\Auth::user());
+        self::banUser(\Auth::user());
     }
     ...
 }
